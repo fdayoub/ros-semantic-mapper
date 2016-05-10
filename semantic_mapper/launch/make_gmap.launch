@@ -1,0 +1,12 @@
+<launch>
+   <node pkg="gmapping" type="slam_gmapping" name="gmapper" output="screen">
+           <!--remap from="scan" to="laser"/-->
+           <remap from="scan" to="laser"/>
+           <param name="odom_frame" value="odom"/>
+           <param name="map_frame" value="map"/>
+           <param name="particles" value="10" />
+	   <param name="delta" value="0.1" />
+	   <param name="throttle_scans" value="1" />
+   </node>
+</launch>
+

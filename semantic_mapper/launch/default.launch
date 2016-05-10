@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg="semantic_mapper" type="semantic_mapper_node" name="semantic_mapper_node" output="screen">
+
+<param name="prob_thres" value="0.0" />
+</node>
+
+</launch>

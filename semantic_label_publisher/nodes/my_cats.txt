@@ -1,0 +1,12 @@
+#label_name label_id label_color(R,G,B)
+campus 68 166,206,227
+clothing_store 46 31,120,180
+corridor 54 178,223,138
+kitchen 108 51,160,44
+food_court 77 251,154,153
+lecture_room 44 227,26,28
+lobby 113 253,191,111
+office 129 255,127,0
+parking_garage 135 202,178,2014
+restaurant 152 106,61,154
+supermarket 175 255,255,153

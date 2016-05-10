@@ -1,0 +1,7 @@
+<launch>
+   <include file="$(find semantic_mapper)/launch/default.launch"/>
+   <node pkg="map_server" type="map_server" name="map_server" args="$(find semantic_mapper)/maps/shop.yaml" />
+   <include file="$(find semantic_label_publisher)/launch/default.launch"/>
+   <include file="$(find semantic_mapper)/launch/places/run_amcl_shop.launch"/>
+
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+   <include file="$(find semantic_mapper)/launch/default.launch"/>
+   <include file="$(find semantic_mapper)/launch/make_gmap.launch"/>
+   <include file="$(find semantic_label_publisher)/launch/default.launch"/>
+   
+
+</launch>

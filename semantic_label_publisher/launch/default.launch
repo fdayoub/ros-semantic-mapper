@@ -1,0 +1,19 @@
+<launch>
+
+<node pkg="topic_tools" name="throttle" type="throttle" args="messages camera/rgb/image_raw 2.0" />
+<!--node pkg="topic_tools" name="throttle" type="throttle" args="messages /usb_cam/image_raw 2.0" /-->
+
+<node pkg="semantic_label_publisher" type="semantic_label_publisher_node.py" name="semantic_label_publisher_node" output="screen">
+<param name="image_topic" value="/camera/rgb/image_raw_throttle"/>
+<!--param name="image_topic" value="/usb_cam/image_raw_throttle"/-->
+<param name="caffe_root" value="/home/guiabot/caffe/" />
+<!--param name="MODEL_FILE_PATH" value="/home/guiabot/semantic_mapping_repo/model/deploy.prototxt" /-->
+<param name="MODEL_FILE_PATH" value="/home/guiabot/semantic_mapping_repo/model/MIT/deploy.prototxt" />
+<!--param name="PRETRAINED_PATH" value="/home/guiabot/semantic_mapping_repo/model/bvlc_reference_caffenet.caffemodel" /-->
+<param name="PRETRAINED_PATH" value="/home/guiabot/semantic_mapping_repo/model/MIT/places.caffemodel" />
+<param name="MEAN_FILE_PATH" value="/home/guiabot/semantic_mapping_repo/model/MIT/mean.npy" />
+<param name="SVM_PICKLE_FILE_PATH" value="/home/guiabot/semantic_mapping_repo/model/fc7_new.pkl" />
+<param name="SUB_CAT_FILE" value="/home/guiabot/my_cats.txt" />
+</node>
+
+</launch>
