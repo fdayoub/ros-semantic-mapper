@@ -1,6 +1,6 @@
 # ros-semantic-mapper
 
-http://arxiv.org/abs/1507.02428
+https://wiki.qut.edu.au/display/cyphy/Vision-based+Semantic+Mapping
 ***
 coming soon...
 ***
