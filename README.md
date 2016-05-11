@@ -44,3 +44,4 @@ rosbag files and network model available [here](https://cloudstor.aarnet.edu.au/
 * call the following service to get a semantic map that code the probability distrobution of a place over a covered area: rosservice call /semantic_mapper_node/get_semantic_map "label_id: x" replace x by a number between 1 to 11 to select which label you want from my_cats.txt file (of course different list in my_cats.txt will means different x range)
 * Display the served map (/oneLabel_cloud) in rvis
 * Also check the topic semantic_label
+* The image /sem_label_image display the probability distribution over all place labels in the current view.  
