@@ -18,7 +18,7 @@ rosbag files and network model available [here](https://cloudstor.aarnet.edu.au/
 * git clone https://github.com/fdayoub/ros-semantic-mapper.git
 * cd ..
 * catkin_make 
-* rosdep install semantic_mapper (if missing packages do)
+* rosdep install semantic_mapper (if missing packages)
 * download the [MIT deep network](http://places.csail.mit.edu/) from  https://cloudstor.aarnet.edu.au/plus/index.php/s/n63jLJyL2JjcCHq 
 * Select the following files and download them as zipfile: (places.caffemodel,mean.npy,deploy.prototxt,categoryIndex_places205.csv,my_cats.txt)
 * Check categoryIndex_places205.csv and pick the semantic labels you are interested in. Fill the file my_cats.txt (it is pre-filled with 11 labels keep them or delete and add yours)
