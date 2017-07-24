@@ -12,7 +12,6 @@
 <!--param name="PRETRAINED_PATH" value="/home/guiabot/semantic_mapping_repo/model/bvlc_reference_caffenet.caffemodel" /-->
 <param name="PRETRAINED_PATH" value="/home/guiabot/semantic_mapping_repo/model/MIT/places.caffemodel" />
 <param name="MEAN_FILE_PATH" value="/home/guiabot/semantic_mapping_repo/model/MIT/mean.npy" />
-<param name="SVM_PICKLE_FILE_PATH" value="/home/guiabot/semantic_mapping_repo/model/fc7_new.pkl" />
 <param name="SUB_CAT_FILE" value="/home/guiabot/my_cats.txt" />
 </node>
 
